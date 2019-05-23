@@ -35,4 +35,4 @@ Prepare the input textual relations in a single file, with one textual relation 
 ```
 $ python eval.py  
 ```
-The output textual relation embeddings have the same format as word2vec.  
+The output file of the textual relation embeddings have the similar format as word2vec.  
