@@ -9,7 +9,7 @@ python 2.7
 tensorflow 1.6.0
 
 ### Usage
--code
+-code . 
   |-hyperparams.py ---  Hyperparamter settings and input/output file names.  
   |-train.py --- Train textual relation embedding model.  
   |-eval.py --- Generate textual relation embedding with pre-trained model.  
