@@ -2,7 +2,7 @@
 Data and code for ACL 2019 paper "Global Textual Relation Embedding for Relational Understanding"
 
 ## Data
-Coming soon.  
+Coming soon. We will release both the small filtered relation graph used for training the embedding, and the unfilered large graph.
 
 ## Code
 ### Requirements
@@ -23,6 +23,11 @@ tensorflow 1.6.0
   |-kb_relation2id.txt --- Target relations.  
   |-vocab.txt --- Vocabulary file.  
   |-test.txt --- A sample textual relation input file.  
+  
+-model
+  to store the pre-trained models
+  
+-result
 ```
 
 Create two directories named ```model``` and ```result```, to store pre-trained models and the result textual relation embeddings, respectively.   
