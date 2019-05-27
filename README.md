@@ -2,6 +2,7 @@
 Data and code for ACL 2019 paper "Global Textual Relation Embedding for Relational Understanding"
 
 ## Data
+Coming soon.  
 
 ## Code
 ### Requirements
@@ -31,7 +32,9 @@ $ mkdir result
 ```
 
 Download our pre-trained textual relation embedding models from (), and put under ```model/``` directory. Change the ```model_dir``` variable in ```hyperparams.py``` to the name of the pre-trained model you want to use.  
-Prepare the input textual relations in a single file, with one textual relation per line. The words and dependency relations in the textual relation are seperated by "##". Refer to a sample input file ```data/test.txt```. We use universal dependency. Put the the input textual relations file under ```data/``` directory as test.txt. Specify your output file name as the ```output_file``` variable in ```hyperparams.py```. Then run ```eval.py``` to produce embeddings of the input textual relations:  
+Prepare the input textual relations in a single file, with one textual relation per line. The tokens (including both lexical words and dependency relations) are seperated by "##". Refer to a sample input file ```data/test.txt```. Note that we use universal dependency.   
+
+Put the the input textual relations file under ```data/``` directory as test.txt. Specify your output file name as the ```output_file``` variable in ```hyperparams.py```. Then run ```eval.py``` to produce embeddings of the input textual relations:  
 ```
 $ python eval.py  
 ```
