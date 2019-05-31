@@ -2,7 +2,15 @@
 Data and code for ACL 2019 paper "Global Textual Relation Embedding for Relational Understanding"
 
 ## Data
-Coming soon. We will release both the small filtered relation graph used for training the embedding, and the unfilered large graph.
+Our data and pre-trained model can be downloaded via [Dropbox](https://www.dropbox.com/sh/6cgefbqi0ufrxxq/AADeirRqFvO4WRucmTOP3nzTa?dl=0). 
+```
+-GloREPlus
+  |-small_graph --- The filtered relation graph used to train the textual relation embedding in this work.  
+  |-full_graph --- The unfiltered relation graph.  
+  |-train_data --- The filtered relation graph with the input format of the embedding model, for reference purpose.  
+  |-models --- The pre-trained textual relation embedding models.  
+  
+```
 
 ## Code
 ### Requirements
