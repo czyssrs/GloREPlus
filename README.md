@@ -2,7 +2,7 @@
 Data and code for ACL 2019 paper "Global Textual Relation Embedding for Relational Understanding"
 
 ## Data
-**We will release the full relation graph soon!**
+**We will release the full relation graph soon!**  
 The filtered relation graph and pre-trained models can be downloaded via [Dropbox](https://www.dropbox.com/sh/6cgefbqi0ufrxxq/AADeirRqFvO4WRucmTOP3nzTa?dl=0). 
 ```
 -GloREPlus
